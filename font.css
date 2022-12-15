@@ -1,0 +1,31 @@
+ul {
+    line-height: 35px;
+    background-color: #a3a3a3;
+    width: 30%;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    text-align: left;
+    list-style-type: none;
+}
+
+li {
+    padding-left: 1.3em;
+}
+
+li:before {
+    content: "\f118";
+    /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: 0;
+    /* same as padding-left set on li */
+    width: 1.3em;
+    /* same as padding-left set on li */
+}
+
+.aktif {
+    background-color: rgb(76, 78, 78);
+    list-style-position: inherit;
+    color: rgb(243, 248, 252);
+
+}
